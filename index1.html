@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <main class="container-fluid">
+        <select name="in" id="searchFormat" aria-label="search" class="header-search-format-select">
+            <option value="">Everything</option>
+
+
+            <option value="original-format:sound recording">Audio Recordings</option>
+
+            <option value="original-format:book">Books/Printed Material</option>
+
+            <option value="original-format:film, video">Films, Videos</option>
+
+            <option value="original-format:legislation">Legislation</option>
+
+            <option value="original-format:manuscript/mixed material">Manuscripts/Mixed Material</option>
+
+            <option value="original-format:map">Maps</option>
+
+            <option value="original-format:notated music">Notated Music</option>
+
+            <option value="original-format:newspaper">Newspapers</option>
+
+            <option value="original-format:periodical">Periodicals</option>
+
+            <option value="original-format:personal narrative">Personal Narratives</option>
+
+            <option value="original-format:photo, print, drawing">Photos, Prints, Drawings</option>
+
+            <option value="original-format:software, e-resource">Software, E-Resources</option>
+
+            <option value="original-format:web archive">Web Archives</option>
+
+            <option value="original-format:web page">Web Pages</option>
+
+            <option value="original-format:3d object">3D Objects</option>
+
+
+        </select>
+
+        <div class="header-search-input-wrapper">
+            <input type="search" title="Search the Library of Congress" placeholder="Search Loc.gov" name="q"
+                id="search" class="locsuggest header-search-input" maxlength="250" value="" onfocus="this.select();"
+                accesskey="/" autocomplete="off" role="textbox" aria-multiline="false" aria-autocomplete="list"
+                aria-haspopup="true" aria-owns="Autocomplete_92384">
+
+        </div>
+        <button class="search-button" id="search-button" type="submit" value="submit">
+            <span>Search</span>
+        </button>
+
+        </form>
+    </main>
+</body>
+
+</html>
