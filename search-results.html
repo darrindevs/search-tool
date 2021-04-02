@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Search Results</title>
+    
+  </head>
+  
+
+  <body>
+      <!-- Container-->
+    <main class="container-fluid">
+        <!-- SEARCH RESULTS -->
+    <div class="row">
+        <div class="col-4">
+            <p><h2>Library of Congress Search Engine</h2></p>
+            <!-- Input 1-->
+            <div class="input-group input-group-lg">
+                <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm">
+              </div>
+              <!-- Select -->
+              <div class="form-group">
+                <label for="sel1">Select list:</label>
+                <select class="form-control" id="sel1">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                </select>
+              </div> 
+              <div>
+                <button id="search-results-btn" type="button" class="btn btn-primary mb-3">Primary</button>
+              </div>
+              <div>
+                <button id="go-back-btn" type="button" class="btn btn-secondary mb-3">Primary</button>
+              </div>
+
+        </div>
+        <div class="col-8">
+        <h3>Showing Results for...</h3>
+        <!-- Dynamic Search Results go here -->
+        <ul id="search-results-list">
+        </ul>
+        </div>
+      </div>
+    <!-- SEARCH RESULTS -->
+
+
+
+
+
+
+
+    </main>
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/scripts/script.js"></script>
+  </body>
+</html>
